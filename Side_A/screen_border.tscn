@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://cvbv3mrm1jjf1"]
+[gd_scene load_steps=41 format=3 uid="uid://p0353lq1nip0"]
 
 [ext_resource type="Texture2D" uid="uid://br61e7l5bu8rp" path="res://Side_A/Tiles/Tilemap.png" id="1_8lb7n"]
 [ext_resource type="Texture2D" uid="uid://bid1bigsgd71k" path="res://Side_A/UI/LifeBar4.png" id="2_auuen"]
@@ -7,19 +7,19 @@
 [ext_resource type="Texture2D" uid="uid://cc5qp26pswqqj" path="res://Side_A/UI/JumpCnt1.png" id="5_aaotf"]
 [ext_resource type="Texture2D" uid="uid://bg4u0mboxnkn" path="res://Side_A/UI/JumpCnt2.png" id="6_4kpx5"]
 [ext_resource type="Texture2D" uid="uid://cusj0cqrp5vgx" path="res://Side_A/UI/JumpCnt3.png" id="7_xp0cm"]
-[ext_resource type="Texture2D" uid="uid://t1qo0jdggqsc" path="res://Side_A/Platforms/Large_Platforms1.png" id="8_f4mkb"]
+[ext_resource type="Texture2D" uid="uid://cm3xvk6c734w" path="res://Side_A/Platforms/Large_Platforms1.png" id="8_f4mkb"]
 [ext_resource type="Texture2D" uid="uid://baolvc4tk1lhr" path="res://Side_A/BCKground.png" id="8_nt45c"]
-[ext_resource type="Texture2D" uid="uid://5d63lu1vogg5" path="res://Side_A/Enemies/Level 1/Alli1.png" id="10_jp53p"]
-[ext_resource type="Texture2D" uid="uid://i7q2tgiq7hu2" path="res://Side_A/Enemies/Level 1/Alli2.png" id="11_ynaa1"]
-[ext_resource type="Texture2D" uid="uid://bs4ruubsnxrok" path="res://Side_A/Enemies/Level 1/Turt1.png" id="12_qtvim"]
-[ext_resource type="Texture2D" uid="uid://dh6lp14o22pct" path="res://Side_A/Enemies/Level 1/Turt2.png" id="13_x5ull"]
-[ext_resource type="Texture2D" uid="uid://b52y0122ee18e" path="res://Side_A/Enemies/Level 1/Maggot_Clump1.png" id="14_l18gm"]
-[ext_resource type="Texture2D" uid="uid://ruqyof5k7hvs" path="res://Side_A/Enemies/Level 1/Maggot_Clump2.png" id="15_devw8"]
-[ext_resource type="Texture2D" uid="uid://vmd6c3bv58qb" path="res://Side_A/Enemies/Level 1/Maggot_Clump3.png" id="16_684w7"]
-[ext_resource type="Texture2D" uid="uid://dv2vsocsinemc" path="res://Side_A/Enemies/Level 1/Maggot_Clump4.png" id="17_tagt4"]
-[ext_resource type="Texture2D" uid="uid://bt1f161kpdxey" path="res://Side_A/Enemies/Level 1/Maggot_Clump5.png" id="18_uq7dm"]
-[ext_resource type="Texture2D" uid="uid://comlm52cenr4e" path="res://Side_A/Enemies/Level 1/Maggot_Clump6.png" id="19_emk8k"]
-[ext_resource type="PackedScene" uid="uid://diogt7e1mhcxh" path="res://Side_A/player.tscn" id="20_j5nix"]
+[ext_resource type="Texture2D" uid="uid://d3qjvdg8i5xx0" path="res://Side_A/Enemies/Level 1/Alli1.png" id="10_jp53p"]
+[ext_resource type="Texture2D" uid="uid://b6rb4ka8d76j6" path="res://Side_A/Enemies/Level 1/Alli2.png" id="11_ynaa1"]
+[ext_resource type="Texture2D" uid="uid://bung65c5erkb6" path="res://Side_A/Enemies/Level 1/Turt1.png" id="12_qtvim"]
+[ext_resource type="Texture2D" uid="uid://dduhb7cemxdfc" path="res://Side_A/Enemies/Level 1/Turt2.png" id="13_x5ull"]
+[ext_resource type="Texture2D" uid="uid://bptdqjk4c24rm" path="res://Side_A/Enemies/Level 1/Maggot_Clump1.png" id="14_l18gm"]
+[ext_resource type="Texture2D" uid="uid://b81y28ya7jby1" path="res://Side_A/Enemies/Level 1/Maggot_Clump2.png" id="15_devw8"]
+[ext_resource type="Texture2D" uid="uid://bqu8ptpggyde6" path="res://Side_A/Enemies/Level 1/Maggot_Clump3.png" id="16_684w7"]
+[ext_resource type="Texture2D" uid="uid://cvbmh00av2noj" path="res://Side_A/Enemies/Level 1/Maggot_Clump4.png" id="17_tagt4"]
+[ext_resource type="Texture2D" uid="uid://ddvg1mki136fs" path="res://Side_A/Enemies/Level 1/Maggot_Clump5.png" id="18_uq7dm"]
+[ext_resource type="Texture2D" uid="uid://dl1fs2yu1g6ht" path="res://Side_A/Enemies/Level 1/Maggot_Clump6.png" id="19_emk8k"]
+[ext_resource type="PackedScene" path="res://Side_A/player.tscn" id="20_j5nix"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uu0fw"]
 load_path = "res://.godot/imported/LifeBar1.png-7519bdc5db7f8258bbef493daa73df9e.ctex"
@@ -260,7 +260,6 @@ texture_repeat = 1
 position = Vector2(0, 3)
 
 [node name="BcKground" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(0, -3)
 texture = ExtResource("8_nt45c")
 centered = false
