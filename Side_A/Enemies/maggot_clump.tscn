@@ -1,0 +1,51 @@
+[gd_scene load_steps=9 format=3 uid="uid://fnw8nnkpyc74"]
+
+[ext_resource type="Texture2D" uid="uid://be2lhaau00cpc" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump1.tres" id="1_n1lnm"]
+[ext_resource type="Texture2D" uid="uid://dgdptpu6b4uht" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump2.tres" id="2_m5pdr"]
+[ext_resource type="Texture2D" uid="uid://bne8wnf1fsll5" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump3.tres" id="3_5s2wp"]
+[ext_resource type="Texture2D" uid="uid://c27hpw8fnt3jw" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump4.tres" id="4_blodb"]
+[ext_resource type="Texture2D" uid="uid://bs8sh652nrln1" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump5.tres" id="5_nlwjw"]
+[ext_resource type="Texture2D" uid="uid://deuxoe3ljldxq" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump6.tres" id="6_xnixu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_31o3i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_n1lnm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_m5pdr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5s2wp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_blodb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nlwjw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xnixu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lcl32"]
+size = Vector2(4, 16)
+
+[node name="MaggotClump" type="AnimatableBody2D"]
+texture_filter = 1
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_31o3i")
+frame_progress = 0.556513
+offset = Vector2(-2, 0)
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_lcl32")
+metadata/_edit_lock_ = true

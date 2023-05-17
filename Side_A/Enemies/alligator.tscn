@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3qwke06ii2p3"]
+
+[ext_resource type="Texture2D" uid="uid://bamak1qad4ier" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Alli1.tres" id="1_xwdeu"]
+[ext_resource type="Texture2D" uid="uid://dx2kykxyyqp8" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Alli2.tres" id="2_h2vrp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pp0nc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xwdeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_h2vrp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1osbx"]
+size = Vector2(16, 10.5)
+
+[node name="Alligator" type="AnimatableBody2D"]
+texture_filter = 1
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_pp0nc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_1osbx")

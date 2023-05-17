@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://226yb6kdjbxd"]
+
+[ext_resource type="Texture2D" uid="uid://crjccm5uvldc" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Turt1.tres" id="1_7ytqy"]
+[ext_resource type="Texture2D" uid="uid://ncy2j3puus1" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Turt2.tres" id="2_j1i6i"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h2n85"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7ytqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_j1i6i")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5qqnn"]
+size = Vector2(8, 15)
+
+[node name="Turtle" type="AnimatableBody2D"]
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_h2n85")
+frame_progress = 0.0273159
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_5qqnn")

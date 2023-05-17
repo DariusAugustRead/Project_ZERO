@@ -1,0 +1,783 @@
+{
+	"textures": [
+		{
+			"image": "sprites.png",
+			"size": {
+				"w": 64,
+				"h": 412
+			},
+			"sprites": [
+				{
+					"filename": "Large_Platforms3.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 34,
+						"h": 6
+					},
+					"margin": {
+						"x": 0,
+						"y": 1,
+						"w": 0,
+						"h": 1
+					}
+				},
+				{
+					"filename": "UpGrndAttack1.png",
+					"region": {
+						"x": 37,
+						"y": 1,
+						"w": 26,
+						"h": 21
+					},
+					"margin": {
+						"x": 1,
+						"y": 13,
+						"w": 12,
+						"h": 27
+					}
+				},
+				{
+					"filename": "Large_Platforms2.png",
+					"region": {
+						"x": 1,
+						"y": 9,
+						"w": 34,
+						"h": 5
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 0,
+						"h": 2
+					}
+				},
+				{
+					"filename": "Large_Platforms1.png",
+					"region": {
+						"x": 1,
+						"y": 16,
+						"w": 34,
+						"h": 4
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 0,
+						"h": 3
+					}
+				},
+				{
+					"filename": "UpGrndAttack2.png",
+					"region": {
+						"x": 1,
+						"y": 22,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 6,
+						"h": 16
+					}
+				},
+				{
+					"filename": "FwdGrndAttack2.png",
+					"region": {
+						"x": 35,
+						"y": 24,
+						"w": 28,
+						"h": 33
+					},
+					"margin": {
+						"x": 10,
+						"y": 2,
+						"w": 10,
+						"h": 15
+					}
+				},
+				{
+					"filename": "DwnAirAttack2.png",
+					"region": {
+						"x": 1,
+						"y": 56,
+						"w": 32,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 13,
+						"w": 6,
+						"h": 18
+					}
+				},
+				{
+					"filename": "DwnAirAttack1.png",
+					"region": {
+						"x": 35,
+						"y": 59,
+						"w": 28,
+						"h": 19
+					},
+					"margin": {
+						"x": 1,
+						"y": 13,
+						"w": 10,
+						"h": 29
+					}
+				},
+				{
+					"filename": "UpAirAttack1.png",
+					"region": {
+						"x": 35,
+						"y": 80,
+						"w": 28,
+						"h": 19
+					},
+					"margin": {
+						"x": 1,
+						"y": 13,
+						"w": 10,
+						"h": 29
+					}
+				},
+				{
+					"filename": "UpAirAttack2.png",
+					"region": {
+						"x": 1,
+						"y": 88,
+						"w": 32,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 6,
+						"h": 18
+					}
+				},
+				{
+					"filename": "DwnAirAttack3.png",
+					"region": {
+						"x": 35,
+						"y": 101,
+						"w": 23,
+						"h": 19
+					},
+					"margin": {
+						"x": 8,
+						"y": 13,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "FloatSec1.png",
+					"region": {
+						"x": 1,
+						"y": 120,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UpAirAttack3.png",
+					"region": {
+						"x": 35,
+						"y": 122,
+						"w": 23,
+						"h": 19
+					},
+					"margin": {
+						"x": 8,
+						"y": 13,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "FloatSec2.png",
+					"region": {
+						"x": 1,
+						"y": 138,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Jump2-Glide.png",
+					"region": {
+						"x": 35,
+						"y": 143,
+						"w": 22,
+						"h": 21
+					},
+					"margin": {
+						"x": 8,
+						"y": 11,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "FloatSec3.png",
+					"region": {
+						"x": 1,
+						"y": 156,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "FwdAirAttack1.png",
+					"region": {
+						"x": 35,
+						"y": 166,
+						"w": 21,
+						"h": 28
+					},
+					"margin": {
+						"x": 8,
+						"y": 4,
+						"w": 17,
+						"h": 20
+					}
+				},
+				{
+					"filename": "FloatSec4.png",
+					"region": {
+						"x": 1,
+						"y": 174,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "FloatSec5.png",
+					"region": {
+						"x": 1,
+						"y": 192,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Maggot_Clump1.png",
+					"region": {
+						"x": 58,
+						"y": 166,
+						"w": 5,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 3,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Maggot_Clump2.png",
+					"region": {
+						"x": 58,
+						"y": 184,
+						"w": 5,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 3,
+						"h": 0
+					}
+				},
+				{
+					"filename": "FwdAirAttack3.png",
+					"region": {
+						"x": 35,
+						"y": 196,
+						"w": 21,
+						"h": 22
+					},
+					"margin": {
+						"x": 8,
+						"y": 12,
+						"w": 17,
+						"h": 26
+					}
+				},
+				{
+					"filename": "JumpCnt1.png",
+					"region": {
+						"x": 1,
+						"y": 210,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Maggot_Clump3.png",
+					"region": {
+						"x": 58,
+						"y": 202,
+						"w": 5,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 3,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Jump1.png",
+					"region": {
+						"x": 35,
+						"y": 220,
+						"w": 21,
+						"h": 21
+					},
+					"margin": {
+						"x": 8,
+						"y": 11,
+						"w": 17,
+						"h": 27
+					}
+				},
+				{
+					"filename": "JumpCnt2.png",
+					"region": {
+						"x": 1,
+						"y": 228,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Maggot_Clump4.png",
+					"region": {
+						"x": 58,
+						"y": 220,
+						"w": 5,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 3,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Maggot_Clump5.png",
+					"region": {
+						"x": 58,
+						"y": 238,
+						"w": 5,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 3,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UpGrndAttack3.png",
+					"region": {
+						"x": 35,
+						"y": 243,
+						"w": 21,
+						"h": 21
+					},
+					"margin": {
+						"x": 10,
+						"y": 13,
+						"w": 17,
+						"h": 27
+					}
+				},
+				{
+					"filename": "Maggot_Clump6.png",
+					"region": {
+						"x": 58,
+						"y": 256,
+						"w": 5,
+						"h": 16
+					},
+					"margin": {
+						"x": 3,
+						"y": 0,
+						"w": 3,
+						"h": 0
+					}
+				},
+				{
+					"filename": "JumpCnt3.png",
+					"region": {
+						"x": 1,
+						"y": 246,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "LifeBar1.png",
+					"region": {
+						"x": 1,
+						"y": 264,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "FwdGrndAttack3.png",
+					"region": {
+						"x": 35,
+						"y": 266,
+						"w": 18,
+						"h": 22
+					},
+					"margin": {
+						"x": 10,
+						"y": 12,
+						"w": 20,
+						"h": 26
+					}
+				},
+				{
+					"filename": "LifeBar2.png",
+					"region": {
+						"x": 1,
+						"y": 282,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Turt1.png",
+					"region": {
+						"x": 55,
+						"y": 274,
+						"w": 8,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "FwdGrndAttack1.png",
+					"region": {
+						"x": 35,
+						"y": 290,
+						"w": 17,
+						"h": 30
+					},
+					"margin": {
+						"x": 10,
+						"y": 4,
+						"w": 21,
+						"h": 18
+					}
+				},
+				{
+					"filename": "LifeBar3.png",
+					"region": {
+						"x": 1,
+						"y": 300,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "LifeBar4.png",
+					"region": {
+						"x": 1,
+						"y": 318,
+						"w": 32,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Turt2.png",
+					"region": {
+						"x": 54,
+						"y": 292,
+						"w": 8,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Maggot.png",
+					"region": {
+						"x": 54,
+						"y": 310,
+						"w": 6,
+						"h": 7
+					},
+					"margin": {
+						"x": 1,
+						"y": 5,
+						"w": 2,
+						"h": 9
+					}
+				},
+				{
+					"filename": "Walk2.png",
+					"region": {
+						"x": 35,
+						"y": 322,
+						"w": 17,
+						"h": 23
+					},
+					"margin": {
+						"x": 10,
+						"y": 11,
+						"w": 21,
+						"h": 25
+					}
+				},
+				{
+					"filename": "FwdAirAttack2.png",
+					"region": {
+						"x": 1,
+						"y": 336,
+						"w": 30,
+						"h": 33
+					},
+					"margin": {
+						"x": 8,
+						"y": 2,
+						"w": 8,
+						"h": 15
+					}
+				},
+				{
+					"filename": "Idle1.png",
+					"region": {
+						"x": 33,
+						"y": 347,
+						"w": 17,
+						"h": 22
+					},
+					"margin": {
+						"x": 10,
+						"y": 12,
+						"w": 21,
+						"h": 26
+					}
+				},
+				{
+					"filename": "Walk1.png",
+					"region": {
+						"x": 1,
+						"y": 371,
+						"w": 17,
+						"h": 22
+					},
+					"margin": {
+						"x": 10,
+						"y": 12,
+						"w": 21,
+						"h": 26
+					}
+				},
+				{
+					"filename": "Alli1.png",
+					"region": {
+						"x": 1,
+						"y": 395,
+						"w": 16,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Small_Platforms1.png",
+					"region": {
+						"x": 1,
+						"y": 407,
+						"w": 17,
+						"h": 4
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 0,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Alli2.png",
+					"region": {
+						"x": 19,
+						"y": 395,
+						"w": 16,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Walk3.png",
+					"region": {
+						"x": 20,
+						"y": 371,
+						"w": 17,
+						"h": 22
+					},
+					"margin": {
+						"x": 10,
+						"y": 12,
+						"w": 21,
+						"h": 26
+					}
+				},
+				{
+					"filename": "Idle2.png",
+					"region": {
+						"x": 39,
+						"y": 371,
+						"w": 17,
+						"h": 21
+					},
+					"margin": {
+						"x": 10,
+						"y": 13,
+						"w": 21,
+						"h": 27
+					}
+				},
+				{
+					"filename": "Small_Platforms3.png",
+					"region": {
+						"x": 39,
+						"y": 394,
+						"w": 17,
+						"h": 6
+					},
+					"margin": {
+						"x": 0,
+						"y": 1,
+						"w": 0,
+						"h": 1
+					}
+				},
+				{
+					"filename": "Small_Platforms2.png",
+					"region": {
+						"x": 37,
+						"y": 402,
+						"w": 17,
+						"h": 5
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 0,
+						"h": 2
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6f9119cbe4be2560d02179f5aab31fd3:952201adee45f34e1c46d08ec9525bf8:b476a0b765120c4618d8e49c5863b5b3$"
+	}
+}

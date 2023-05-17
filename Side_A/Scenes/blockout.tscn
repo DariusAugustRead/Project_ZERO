@@ -1,34 +1,31 @@
 [gd_scene load_steps=41 format=3]
 
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Tilemap.png" id="1_8lb7n"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/LifeBar4.png" id="2_auuen"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/LifeBar3.png" id="3_cmr36"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/LifeBar2.png" id="4_p87qf"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/JumpCnt1.png" id="5_aaotf"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/JumpCnt2.png" id="6_4kpx5"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/JumpCnt3.png" id="7_xp0cm"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Large_Platforms1.png" id="8_f4mkb"]
-[ext_resource type="Texture2D" uid="uid://baolvc4tk1lhr" path="res://Side_A/Assets/Textures/Background.png" id="8_nt45c"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Alli1.png" id="10_jp53p"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Alli2.png" id="11_ynaa1"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Turt1.png" id="12_qtvim"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Turt2.png" id="13_x5ull"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Maggot_Clump1.png" id="14_l18gm"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Maggot_Clump2.png" id="15_devw8"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Maggot_Clump3.png" id="16_684w7"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Maggot_Clump4.png" id="17_tagt4"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Maggot_Clump5.png" id="18_uq7dm"]
-[ext_resource type="Texture2D" path="res://Side_A/Assets/Maggot_Clump6.png" id="19_emk8k"]
-[ext_resource type="PackedScene" uid="uid://clhj3xfbye20n" path="res://Side_A/Player/player.tscn" id="20_j5nix"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uu0fw"]
-load_path = "res://.godot/imported/LifeBar1.png-7519bdc5db7f8258bbef493daa73df9e.ctex"
+[ext_resource type="Texture2D" uid="uid://baolvc4tk1lhr" path="res://Side_A/Assets/Textures/Background.png" id="1_ul1x8"]
+[ext_resource type="Texture2D" uid="uid://dgdd7a0jx6m43" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/LifeBar4.tres" id="2_7pf36"]
+[ext_resource type="Texture2D" uid="uid://lm7f4jdkcxas" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/LifeBar3.tres" id="3_u3evq"]
+[ext_resource type="Texture2D" uid="uid://c2c1rtbecbs1k" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/LifeBar2.tres" id="4_ichvc"]
+[ext_resource type="Texture2D" uid="uid://icogg5gmsiik" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/LifeBar1.tres" id="5_hvjf3"]
+[ext_resource type="Texture2D" uid="uid://dvnynx7l54llm" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/JumpCnt1.tres" id="6_1bxib"]
+[ext_resource type="Texture2D" uid="uid://djb2nqd5e6nhp" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/JumpCnt2.tres" id="7_jii0e"]
+[ext_resource type="Texture2D" uid="uid://dfpxvkknuj4w6" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/JumpCnt3.tres" id="8_f2r7b"]
+[ext_resource type="Texture2D" uid="uid://cggfafh1jb8ye" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Large_Platforms1.tres" id="9_k7tqi"]
+[ext_resource type="Texture2D" uid="uid://bamak1qad4ier" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Alli1.tres" id="10_nbsuc"]
+[ext_resource type="Texture2D" uid="uid://dx2kykxyyqp8" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Alli2.tres" id="11_hne8n"]
+[ext_resource type="Texture2D" uid="uid://crjccm5uvldc" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Turt1.tres" id="12_yb0um"]
+[ext_resource type="Texture2D" uid="uid://ncy2j3puus1" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Turt2.tres" id="13_nn48r"]
+[ext_resource type="Texture2D" uid="uid://be2lhaau00cpc" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump1.tres" id="14_a8mjf"]
+[ext_resource type="Texture2D" uid="uid://dgdptpu6b4uht" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump2.tres" id="15_qh32u"]
+[ext_resource type="Texture2D" uid="uid://bne8wnf1fsll5" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump3.tres" id="16_q844u"]
+[ext_resource type="Texture2D" uid="uid://c27hpw8fnt3jw" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump4.tres" id="17_ploxn"]
+[ext_resource type="Texture2D" uid="uid://bs8sh652nrln1" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump5.tres" id="18_81j17"]
+[ext_resource type="Texture2D" uid="uid://deuxoe3ljldxq" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Maggot_Clump6.tres" id="19_0a7d6"]
+[ext_resource type="PackedScene" uid="uid://clhj3xfbye20n" path="res://Side_A/Player/player.tscn" id="20_iug3m"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_odqn6"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_auuen")
+"texture": ExtResource("2_7pf36")
 }],
 "loop": true,
 "name": &"Life_0",
@@ -36,7 +33,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_cmr36")
+"texture": ExtResource("3_u3evq")
 }],
 "loop": true,
 "name": &"Life_1",
@@ -44,7 +41,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4_p87qf")
+"texture": ExtResource("4_ichvc")
 }],
 "loop": true,
 "name": &"Life_2",
@@ -52,7 +49,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_uu0fw")
+"texture": ExtResource("5_hvjf3")
 }],
 "loop": true,
 "name": &"Life_3",
@@ -63,7 +60,7 @@ animations = [{
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_aaotf")
+"texture": ExtResource("6_1bxib")
 }],
 "loop": true,
 "name": &"Jump_0",
@@ -71,7 +68,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("6_4kpx5")
+"texture": ExtResource("7_jii0e")
 }],
 "loop": true,
 "name": &"Jump_1",
@@ -79,15 +76,18 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("7_xp0cm")
+"texture": ExtResource("8_f2r7b")
 }],
 "loop": true,
 "name": &"Jump_2",
 "speed": 5.0
 }]
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rw1c1"]
+load_path = "res://.godot/imported/Tilemap.png-a853ac5df42a910551c44b611577c124.ctex"
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ee5m5"]
-texture = ExtResource("1_8lb7n")
+texture = SubResource("CompressedTexture2D_rw1c1")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -103,7 +103,7 @@ texture = ExtResource("1_8lb7n")
 sources/0 = SubResource("TileSetAtlasSource_ee5m5")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x3xn2"]
-texture = ExtResource("1_8lb7n")
+texture = SubResource("CompressedTexture2D_rw1c1")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -119,7 +119,7 @@ texture = ExtResource("1_8lb7n")
 sources/0 = SubResource("TileSetAtlasSource_x3xn2")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7fhp7"]
-texture = ExtResource("1_8lb7n")
+texture = SubResource("CompressedTexture2D_rw1c1")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -135,7 +135,7 @@ texture = ExtResource("1_8lb7n")
 sources/0 = SubResource("TileSetAtlasSource_7fhp7")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d75vg"]
-texture = ExtResource("1_8lb7n")
+texture = SubResource("CompressedTexture2D_rw1c1")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -157,7 +157,7 @@ size = Vector2(32, 2)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("8_f4mkb")
+"texture": ExtResource("9_k7tqi")
 }],
 "loop": true,
 "name": &"Fall",
@@ -165,7 +165,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("8_f4mkb")
+"texture": ExtResource("9_k7tqi")
 }],
 "loop": true,
 "name": &"Teeter",
@@ -176,7 +176,7 @@ animations = [{
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("8_f4mkb")
+"texture": ExtResource("9_k7tqi")
 }],
 "loop": true,
 "name": &"In",
@@ -184,7 +184,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("8_f4mkb")
+"texture": ExtResource("9_k7tqi")
 }],
 "loop": true,
 "name": &"Out",
@@ -195,10 +195,10 @@ animations = [{
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("10_jp53p")
+"texture": ExtResource("10_nbsuc")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_ynaa1")
+"texture": ExtResource("11_hne8n")
 }],
 "loop": true,
 "name": &"default",
@@ -212,10 +212,10 @@ size = Vector2(16, 10.5)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("12_qtvim")
+"texture": ExtResource("12_yb0um")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_x5ull")
+"texture": ExtResource("13_nn48r")
 }],
 "loop": true,
 "name": &"default",
@@ -229,22 +229,22 @@ size = Vector2(8, 16)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("14_l18gm")
+"texture": ExtResource("14_a8mjf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_devw8")
+"texture": ExtResource("15_qh32u")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_684w7")
+"texture": ExtResource("16_q844u")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_tagt4")
+"texture": ExtResource("17_ploxn")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_uq7dm")
+"texture": ExtResource("18_81j17")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_emk8k")
+"texture": ExtResource("19_0a7d6")
 }],
 "loop": true,
 "name": &"default",
@@ -259,9 +259,9 @@ texture_filter = 1
 texture_repeat = 1
 position = Vector2(0, 3)
 
-[node name="BcKground" type="Sprite2D" parent="."]
+[node name="Background" type="Sprite2D" parent="."]
 position = Vector2(0, -3)
-texture = ExtResource("8_nt45c")
+texture = ExtResource("1_ul1x8")
 centered = false
 
 [node name="UI" type="Node2D" parent="."]
@@ -272,13 +272,15 @@ position = Vector2(128, 144)
 sprite_frames = SubResource("SpriteFrames_odqn6")
 animation = &"Life_3"
 centered = false
+metadata/_edit_lock_ = true
 
 [node name="Jump_UI" type="AnimatedSprite2D" parent="UI"]
 texture_filter = 1
 position = Vector2(160, 144)
 sprite_frames = SubResource("SpriteFrames_g3l2d")
-animation = &"Jump_1"
+animation = &"Jump_2"
 centered = false
+metadata/_edit_lock_ = true
 
 [node name="UI_Edges" type="TileMap" parent="UI"]
 tile_set = SubResource("TileSet_nthlj")
@@ -308,7 +310,7 @@ layer_0/tile_data = PackedInt32Array(524294, 0, 0, 524295, 0, 0, 524296, 0, 0, 5
 
 [node name="Stan" type="Sprite2D" parent="Standard_Platforms"]
 position = Vector2(112, 126)
-texture = ExtResource("8_f4mkb")
+texture = ExtResource("9_k7tqi")
 offset = Vector2(0, 0.5)
 metadata/_edit_group_ = true
 
@@ -322,7 +324,7 @@ shape = SubResource("RectangleShape2D_npxlu")
 
 [node name="Stan2" type="Sprite2D" parent="Standard_Platforms"]
 position = Vector2(208, 126)
-texture = ExtResource("8_f4mkb")
+texture = ExtResource("9_k7tqi")
 offset = Vector2(0, 0.5)
 metadata/_edit_group_ = true
 
@@ -336,7 +338,7 @@ shape = SubResource("RectangleShape2D_npxlu")
 
 [node name="Stan3" type="Sprite2D" parent="Standard_Platforms"]
 position = Vector2(160, 109)
-texture = ExtResource("8_f4mkb")
+texture = ExtResource("9_k7tqi")
 offset = Vector2(0, 0.5)
 metadata/_edit_group_ = true
 
@@ -354,7 +356,7 @@ position = Vector2(-32, 13)
 [node name="Fall" type="AnimatedSprite2D" parent="Falling_Platforms"]
 position = Vector2(145, 80)
 sprite_frames = SubResource("SpriteFrames_jwj3x")
-animation = &"Fall"
+animation = &"Teeter"
 offset = Vector2(0, 0.5)
 metadata/_edit_group_ = true
 
@@ -369,7 +371,7 @@ shape = SubResource("RectangleShape2D_npxlu")
 [node name="Fall2" type="AnimatedSprite2D" parent="Falling_Platforms"]
 position = Vector2(240, 80)
 sprite_frames = SubResource("SpriteFrames_jwj3x")
-animation = &"Fall"
+animation = &"Teeter"
 offset = Vector2(0, 0.5)
 metadata/_edit_group_ = true
 
@@ -417,6 +419,7 @@ shape = SubResource("RectangleShape2D_npxlu")
 position = Vector2(144, 48)
 sprite_frames = SubResource("SpriteFrames_8kxsf")
 animation = &"Out"
+frame_progress = 0.29726
 offset = Vector2(0, 0.5)
 metadata/_edit_group_ = true
 
@@ -430,7 +433,7 @@ shape = SubResource("RectangleShape2D_npxlu")
 [node name="DR3" type="AnimatedSprite2D" parent="Disappear_Reappear_Platforms"]
 position = Vector2(192, 64)
 sprite_frames = SubResource("SpriteFrames_8kxsf")
-animation = &"Out"
+animation = &"In"
 offset = Vector2(0, 0.5)
 metadata/_edit_group_ = true
 
@@ -461,6 +464,7 @@ position = Vector2(100, 85)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D/Turtle"]
 sprite_frames = SubResource("SpriteFrames_h2n85")
+frame_progress = 0.0273159
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Turtle"]
 visible = false
@@ -472,14 +476,13 @@ position = Vector2(220, 85)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D/Maggot"]
 sprite_frames = SubResource("SpriteFrames_31o3i")
-frame_progress = 0.499292
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Maggot"]
 visible = false
 position = Vector2(2, 0)
 shape = SubResource("RectangleShape2D_lcl32")
 
-[node name="Player" parent="." instance=ExtResource("20_j5nix")]
+[node name="Player" parent="." instance=ExtResource("20_iug3m")]
 position = Vector2(160, 119)
 
 [node name="Camera2D" type="Camera2D" parent="."]

@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://dnpu0lc8vwrop"]
+
+[ext_resource type="Texture2D" uid="uid://cggfafh1jb8ye" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Large_Platforms1.tres" id="1_p488c"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8kxsf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_p488c")
+}],
+"loop": true,
+"name": &"In",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_p488c")
+}],
+"loop": true,
+"name": &"Out",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_npxlu"]
+size = Vector2(32, 2)
+
+[node name="GhostPlatform" type="StaticBody2D"]
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_8kxsf")
+animation = &"In"
+offset = Vector2(0, -0.5)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_npxlu")
