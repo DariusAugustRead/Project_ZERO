@@ -20,7 +20,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5qqnn"]
 size = Vector2(8, 15)
 
-[node name="Turtle" type="AnimatableBody2D"]
+[node name="Turtle" type="Area2D" groups=["enemies"]]
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_h2n85")

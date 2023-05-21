@@ -7,10 +7,10 @@
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_xwdeu")
+"texture": ExtResource("2_h2vrp")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_h2vrp")
+"texture": ExtResource("1_xwdeu")
 }],
 "loop": true,
 "name": &"default",
@@ -20,7 +20,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1osbx"]
 size = Vector2(16, 10.5)
 
-[node name="Alligator" type="AnimatableBody2D"]
+[node name="Alligator" type="Area2D" groups=["enemies"]]
 texture_filter = 1
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]

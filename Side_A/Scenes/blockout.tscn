@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3]
+[gd_scene load_steps=41 format=3 uid="uid://cd2ouub48oiyo"]
 
 [ext_resource type="Texture2D" uid="uid://baolvc4tk1lhr" path="res://Side_A/Assets/Textures/Background.png" id="1_ul1x8"]
 [ext_resource type="Texture2D" uid="uid://dgdd7a0jx6m43" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/LifeBar4.tres" id="2_7pf36"]
@@ -260,9 +260,14 @@ texture_repeat = 1
 position = Vector2(0, 3)
 
 [node name="Background" type="Sprite2D" parent="."]
+z_index = -2
 position = Vector2(0, -3)
 texture = ExtResource("1_ul1x8")
 centered = false
+
+[node name="TileMap" type="TileMap" parent="."]
+z_index = -1
+format = 2
 
 [node name="UI" type="Node2D" parent="."]
 

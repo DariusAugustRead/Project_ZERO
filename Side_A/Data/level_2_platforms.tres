@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="PlatformsConfiguration" load_steps=2 format=3 uid="uid://bik2avbl024tb"]
+
+[ext_resource type="Script" path="res://Side_A/Data/platforms_configuration.gd" id="1_s60nl"]
+
+[resource]
+script = ExtResource("1_s60nl")
+data = Array[Resource("res://Side_A/Data/platform_data.gd")]([])

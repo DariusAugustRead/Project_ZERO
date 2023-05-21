@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://bts6o6aqy42r5"]
+[gd_scene load_steps=6 format=3 uid="uid://bts6o6aqy42r5"]
 
 [ext_resource type="Texture2D" uid="uid://cggfafh1jb8ye" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Large_Platforms1.tres" id="1_exsvc"]
+[ext_resource type="Script" path="res://Side_A/Platforms/platform.gd" id="1_jn28t"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_jwj3x"]
 animations = [{
@@ -22,9 +23,13 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_npxlu"]
-size = Vector2(32, 2)
+size = Vector2(28, 2)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kjing"]
+radius = 1.0
 
 [node name="FallingPlatform" type="StaticBody2D"]
+script = ExtResource("1_jn28t")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_jwj3x")
@@ -32,7 +37,20 @@ animation = &"Teeter"
 offset = Vector2(0, -0.5)
 metadata/_edit_group_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="BumpCollider" type="CollisionShape2D" parent="."]
 visible = false
 shape = SubResource("RectangleShape2D_npxlu")
+one_way_collision = true
 metadata/_edit_lock_ = true
+
+[node name="LeftRollCollider" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-14, 0)
+shape = SubResource("CircleShape2D_kjing")
+one_way_collision = true
+
+[node name="RightRollCollider" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(14, 0)
+shape = SubResource("CircleShape2D_kjing")
+one_way_collision = true

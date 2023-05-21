@@ -36,11 +36,12 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lcl32"]
 size = Vector2(4, 16)
 
-[node name="MaggotClump" type="AnimatableBody2D"]
+[node name="MaggotClump" type="Area2D"]
 texture_filter = 1
 
-[node name="Sprite" type="AnimatedSprite2D" parent="."]
+[node name="Sprite" type="AnimatedSprite2D" parent="." groups=["enemies"]]
 sprite_frames = SubResource("SpriteFrames_31o3i")
+autoplay = "default"
 frame_progress = 0.556513
 offset = Vector2(-2, 0)
 metadata/_edit_lock_ = true
