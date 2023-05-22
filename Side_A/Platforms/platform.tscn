@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://jfqfudisrhcy"]
+
+[ext_resource type="Script" path="res://Side_A/Platforms/platform.gd" id="1_7qw07"]
+[ext_resource type="Texture2D" uid="uid://cggfafh1jb8ye" path="res://Side_A/Assets/Textures/Sprites/sprites.atlas/Large_Platforms1.tres" id="2_lrujp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1cho8"]
+size = Vector2(32, 2)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_npxlu"]
+size = Vector2(32, 2)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fcrw6"]
+radius = 1.0
+
+[node name="Platform" type="StaticBody2D" groups=["platforms"]]
+script = ExtResource("1_7qw07")
+
+[node name="Area2D" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_1cho8")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_lrujp")
+offset = Vector2(0, -0.5)
+metadata/_edit_group_ = true
+
+[node name="BumpCollider" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_npxlu")
+one_way_collision = true
+
+[node name="LeftRollCollider" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-14, 0)
+rotation = 1.5708
+shape = SubResource("CircleShape2D_fcrw6")
+disabled = true
+one_way_collision = true
+
+[node name="RightRollCollider" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(14, 0)
+shape = SubResource("CircleShape2D_fcrw6")
+disabled = true
+one_way_collision = true
